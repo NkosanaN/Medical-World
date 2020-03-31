@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication8", "WebApplication8.csproj", "{346AEF8F-9423-4CB8-A6FE-6DE7135F4564}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medical.Data", "..\Medical.Data\Medical.Data.csproj", "{ACDBADEC-ED16-4D6C-8388-ADD4CA693B2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medical.Data", "Medical.Data\Medical.Data.csproj", "{ACDBADEC-ED16-4D6C-8388-ADD4CA693B2F}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQLFiles", "..\SQLFiles\SQLFiles.sqlproj", "{CCFE9BFA-DA1F-4E36-A1DA-24DF73CCA6C3}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQLFiles", "SQLFiles\SQLFiles.sqlproj", "{CCFE9BFA-DA1F-4E36-A1DA-24DF73CCA6C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -196,12 +196,6 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Medical.Data\Medical.Data.csproj">
-      <Project>{acdbadec-ed16-4d6c-8388-add4ca693b2f}</Project>
-      <Name>Medical.Data</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup>
