@@ -17,7 +17,7 @@ namespace WebApplication8.ViewModals
         public string Email { set; get; }
 
         [DataType(DataType.Password)]
-        [StringLength(255, ErrorMessage = "Must be between 5 and 255 characters", MinimumLength = 5)]
+        [StringLength(255, ErrorMessage = "Must be between 3 and 255 characters", MinimumLength = 3)]
         [Display(Name = "Password"), Required]
         public string Password { set; get; }
         [Display(Name = "Data Of Birth"), Required]

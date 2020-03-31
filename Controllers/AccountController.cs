@@ -28,6 +28,8 @@ namespace WebApplication8.Controllers
             }
             else
             {
+                //TempData["user"] = id.FirstName;
+                Session["user"] = id.FirstName;
                 return RedirectToAction("Index", "Login");
             }
         }

@@ -2,9 +2,13 @@
 
 @{
     ViewBag.Title = "Index";
+    if(Session["user"] == null) 
+    {
+        Response.Redirect("~/Account/StartPage");
+    }
 }
 
-<h2>Index</h2>
+    <h2>Welcome  @Session["user"]</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
